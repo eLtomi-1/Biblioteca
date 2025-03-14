@@ -1,8 +1,6 @@
 ---
-title: Esta es la vault de Tomi
+title: Welcome to Quartz
 ---
 
-**Todavia no se que poner**
-
-# Empezar temprano hoy
-
+This is a blank Quartz installation.
+See the [documentation](https://quartz.jzhao.xyz) for how to get started.
