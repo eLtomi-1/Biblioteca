@@ -1,5 +1,5 @@
 ---
-title: 1- Numeros Comlejos
+title: 1- Numeros Complejos
 ---
 
 Bueno primero de todo que es un numero complejo, bueno un **numero complejo** es un **par ordenado** (un par ordenado son unas coordenadas que si las invertimos no son iguales por ejemplo $(x,y)$ o sea que el orden importa)
