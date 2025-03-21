@@ -179,7 +179,7 @@ Por lo tanto le podemos hacer **bhaskara**, esto se va a dividir en **3 posibles
 
 - El segundo es que nos genera dos raices **iguales** por lo tanto nos caga porque deberiamos de tener un espacio de **dimension 2** y con esto solo generamos **uno**. Aca como solucion tendriamos que $y_"H" = alpha e^(lambda x) + beta x e^(lambda_2 x)$
 
-- El tercero es que las raices son **raices complejas**, estas las podemos representar asi $lambda_1 = a + b i$ y su **conjugado** $lambda_1 = a - b i$
+- El tercero es que las raices son **raices complejas**, estas las podemos representar asi $lambda_1 = a + b i$ y su **conjugado** $lambda_1 = a - b i$ y la solucion nos queda asi $y_"H" = e^(a x) cos (b x) + e^(a x) sin(b x)$
 
 #### Ejemplos
 
@@ -191,5 +191,25 @@ Y luego lo factorizamos $e^(lambda x) (lambda^2 - 5 lambda + 6) $
 
 Ahora hacemos bhaskara al segundo termino que es el que depende para que sea **0** y nos da $lambda = 3; lambda_2 = 2$
 
+Asi que la solucion general de la homogenea nos queda asi $y_"H" = alpha e^3x + alpha e^2x$
 
 
+2. $y prime prime - 4 y prime + 4 y = 0$
+
+Esto lo podemos pasar a $e^(lambda x) lambda^2 - 4 e^(lambda x) lambda + 4 e^(lambda x)$
+
+Y luego lo factorizamos $e^(lambda x) (lambda^2 - 4 lambda + 4) $
+
+Ahora hacemos bhaskara al segundo termino que es el que depende para que sea **0** y nos da $lambda = 2; lambda_2 = 2$
+
+Asi que la solucion general de la homogenea nos queda asi $y_"H" = alpha e^2x + alpha x e^2x$
+
+3. $y prime prime - 2 y prime + 5 y = 0$
+
+Esto lo podemos pasar a $e^(lambda x) lambda^2 - 2 e^(lambda x) lambda + 5 e^(lambda x)$
+
+Y luego lo factorizamos $e^(lambda x) (lambda^2 - 2 lambda + 5) $
+
+Ahora hacemos bhaskara al segundo termino que es el que depende para que sea **0** y nos da $lambda = 1 + 2i; lambda_2 = 1 - 2i$
+
+Asi que la solucion general de la homogenea nos queda asi $y_"H" = alpha e^x cos(2x)+ beta e^x sin(2x)$
