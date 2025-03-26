@@ -179,7 +179,7 @@ Por lo tanto le podemos hacer **bhaskara**, esto se va a dividir en **3 posibles
 
 - El segundo es que nos genera dos raices **iguales** por lo tanto nos caga porque deberiamos de tener un espacio de **dimension 2** y con esto solo generamos **uno**. Aca como solucion tendriamos que $y_"H" = alpha e^(lambda x) + beta x e^(lambda_2 x)$
 
-- El tercero es que las raices son **raices complejas**, estas las podemos representar asi $lambda_1 = a + b i$ y su **conjugado** $lambda_1 = a - b i$ y la solucion nos queda asi $y_"H" = e^(a x) cos (b x) + e^(a x) sin(b x)$
+- El tercero es que las raices son **raices complejas**, estas las podemos representar asi $lambda_1 = a + b i$ y su **conjugado** $lambda_1 = a - b i$ y la solucion nos queda asi $y_"H" = alpha e^(a x) cos (b x) + beta e^(a x) sin(b x)$
 
 #### Ejemplos
 
@@ -213,3 +213,35 @@ Y luego lo factorizamos $e^(lambda x) (lambda^2 - 2 lambda + 5) $
 Ahora hacemos bhaskara al segundo termino que es el que depende para que sea **0** y nos da $lambda = 1 + 2i; lambda_2 = 1 - 2i$
 
 Asi que la solucion general de la homogenea nos queda asi $y_"H" = alpha e^x cos(2x)+ beta e^x sin(2x)$
+
+### Ejemplo solucion particular
+
+1. $y prime prime + 2 y prime + 8 y = sin(2x)$
+
+Buscamos una solucion de la forma $y_p = A cos(2x) + B sin(2x)$, 
+>[!important]
+>Generalmente depende si es un **polinomio** o en este caso si es un **seno**. Pero la idea es facilitar la resolucion, porque perfectamente podriamos poner un $e^lambda$ pero para lograr una igualdad entre $e$ y $sin(x)$ es mucho mas complejo.
+
+Bueno, derivamos y nos queda asi $y prime = -2A sin(x) + 2B cos(2x)$ y $y prime prime = -4A cos(2x) - 4B sin(2x)$.
+
+Hacemos las cuentas sustituyendo las $y$, y nos queda esto:
+
+$$
+cos(2x) [4A + 4B] + sin(2x) [-4A + 4B] = sin(2x)
+$$
+
+Analizamos y nos damos cuenta que en el **primer termino**, $cos(2x) [4A + 4B]$ no hay ninguna similitud a lo que esta igualado que es $sin(2x)$ 
+
+O sea que no pertenece a la igualdad por lo tanto $[4A + 4B] = 0$, $sin(2x) [-4A + 4B]$ siendo el otro termino **0** nos damos cuenta que $sin(2x)$ si pertenece a la igualdad asi que para que $sin(2x) [-4A + 4B] = sin(2x)$, $[-4A + 4B] = 1$.
+
+Ahora que tenemos esas condiciones hacemos un sistema:
+
+
+$$
+ cases(
+    4A + 4B = 0 \
+    4B - 4A = 1 \
+  )
+$$
+
+De aca sacamos que $A = -B$ y $[B = 1/8; A=-1/8]$ y suplantamos $y_p = -1/8 cos(2x) + 1/8 sin(2x)$ y ahi tenemos **la solucion particular**.

@@ -1,4 +1,5 @@
 import { QuartzConfig } from "./quartz/cfg"
+import { CustomOgImages } from "./quartz/plugins/emitters/ogImage"
 import * as Plugin from "./quartz/plugins"
 
 /**
