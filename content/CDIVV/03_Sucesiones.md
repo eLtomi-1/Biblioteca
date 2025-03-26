@@ -61,7 +61,7 @@ Si es monotona es muy probable que tenga un limite ya sea finito o infinito. Por
 
 #### Teorema
 
-1. Si es monotona creciente pueden pasar dos cosas, primero que todo es **acotada la sucesion**, asi que vamos a tener un **limite finito**, y si **no es acotad** vamos a tener un **limite infinito**.
+1. Si es monotona creciente pueden pasar dos cosas, primero que todo es **acotada la sucesion**, asi que vamos a tener un **limite finito**, y si **no es acotada** vamos a tener un **limite infinito**.
 
 2. Si la sucesion tiene **limite finito**, es **acotada**.
 
