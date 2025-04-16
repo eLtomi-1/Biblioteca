@@ -119,7 +119,23 @@ Decimos que $a_n$ y $b_n$ forman un Par de Sucesiones Monotonas Convergentes (PS
 
 3. $forall epsilon > 0$, $exists m in NN$ tal que $|a_m - b_m| < epsilon$
 
+### Subsucesiones
 
+Dada una sucesion $a_n$ y otra sucesion $n_k$, donde $n_k$ es una sucesion **estrictamente creciente** de numeros naturales. Entonces, llamamos subsucesion de $a_n$ a $a_(2n)$.
+
+Unos ejemplos pueden ser la subsucesion de numeros pares o impares, $a_(2n)$ y $a_(2n+1)$.
+
+#### Teorema 
+
+Si $lim a_n = L$ entonces toda subsucesion de $a_n$ tiene limite $L$.
+
+#### Puntos de acumulacion
+
+Decimos que $a in RR$ es un punto de acumulacion de un conjunto $A$, si todo entorno reducido de $a$ contiene elementos de $A$.
+
+Ejemplo:
+
+1. $A = [0,1)$, $a = 1/4$
 
 
 
